@@ -12,8 +12,8 @@
     tools:context="com.example.atul.udemy_animation.MainActivity">
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         app:srcCompat="@drawable/bart"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
@@ -21,4 +21,14 @@
         android:id="@+id/imageView"
         android:src="@drawable/bart"
         android:onClick="fade" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/homer"
+        android:id="@+id/imageView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:alpha="0" />
 </RelativeLayout>
